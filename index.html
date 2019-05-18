@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="author" content="Bemuse">
+    <meta name="description" content="Arknights for Wallpaper Engine">
+    <meta name="keywords" content="HTML, CSS, JS, JQuery, ThreeJS">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/three.min.js"></script>
+    <script src="js/simplex-noise.2.3.0.min.js"></script>
+    <script src="js/THREE.MeshLine.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Arknights</title>
+</head>
+<body>
+    <div id="wrap">
+        <div id="appsWrap">
+            <div id="apps">
+                <div id="appsContainer">
+                    <div class="app first">
+                        <div></div>
+                        <div>
+                            <a class="weatherwidget-io" href="https://forecast7.com/en/40d71n74d01/new-york/" data-label_1="NEW YORK" data-font="Roboto" data-days="3" data-theme="original" data-basecolor="rgba(32, 32, 32, 0.8)" data-accent="" data-highcolor="#ffffff" data-lowcolor="#ffffff" data-suncolor="#ffffff" data-cloudcolor="#ffffff" data-cloudfill="#ffffff" data-raincolor="#ffffff" data-snowcolor="#ffffff" >NEW YORK</a>
+                            <div></div>
+                        </div>                   
+                    </div>
+                    <div class="app second">
+                        <div>
+                            <div id="slideWrap">
+                                <img src="image/character/amiya.png">
+                                <img src="image/character/angel.png">
+                                <img src="image/character/chen.png">
+                                <img src="image/character/franka.png">
+                                <img src="image/character/liskam.png">
+                                <img src="image/character/red.png">
+                                <img src="image/character/texas.png">
+                            </div>
+                            <div></div>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div class="app third">
+                        <div></div>
+                        <div>
+                            <div id="musicWrap">
+                                <div id="musicSlideWrap">
+                                    <img src="image/app/Why We Lose.png">
+                                    <img src="image/app/aLIEz.png">
+                                </div>
+                                <div id="arrowWrap">
+                                    <div class="arrow leftA"></div>
+                                    <div class="arrow rightA"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="app fourth">
+                        <div></div>
+                        <div>
+                            <span></span>
+                        </div>
+                        <div>
+                            <div id="bgSlideWrap">
+                                <img src="image/slide/1.jpg">
+                                <img src="image/slide/2.jpg">
+                                <img src="image/slide/3.jpg">
+                                <img src="image/slide/4.jpg">
+                                <img src="image/slide/5.jpg">
+                                <img src="image/slide/6.jpg">
+                                <img src="image/slide/7.jpg">
+                                <img src="image/slide/8.jpg">
+                            </div>
+                            <div id="cover"></div>
+                        </div>
+                        <div>
+                            <span></span>
+                        </div>
+                        <div>
+                            <span></span>
+                        </div>
+                        <div>
+                            <span></span>
+                        </div>
+                        <div><iframe src="https://www.youtube.com/embed/videoseries?list=PLih_zMjUgynE6cg2VKDXeacxh8KnbQlOU" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
+                    </div>
+                    <div class="app fifth">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <div id="blockApp"></div>
+            <div id="changeBG">
+                <div id="bgWrap">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="canvasWrap">
+            <canvas id="canvas"></canvas>
+            <div class="blackFrame firstFrame"></div>
+            <div class="blackFrame secondFrame"></div>
+            <div class="backButton firstButton"></div>
+            <div id="current"></div>
+            <div id="controls">
+                <div id="play"></div>
+                <div id="stop"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/objects.js"></script>
+</body>
+</html>
