@@ -1,3 +1,13 @@
+document.onreadystatechange = function () {
+    var state = document.readyState
+    if (state == 'complete') {
+        document.querySelector("#opening").style.cssText = 'opacity: 0; transition: 0.3s;';
+        setTimeout(function(){
+            document.querySelector("#opening").style.display = 'none';
+        }, 1000);
+    }
+}
+
 var width, height;
 
 width = window.innerWidth;
