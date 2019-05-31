@@ -5,15 +5,28 @@
     <meta name="description" content="Arknights for Wallpaper Engine">
     <meta name="keywords" content="HTML, CSS, JS, JQuery, ThreeJS">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
     <script src="js/jquery-3.1.0.min.js"></script>
     <script src="js/three.min.js"></script>
     <script src="js/simplex-noise.2.3.0.min.js"></script>
     <script src="js/THREE.MeshLine.js"></script>
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <title>Arknights</title>
+    <style>
+    div#opening{
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: black;
+        z-index: 9999;
+    }
+    </style>
 </head>
 <body>
     <div id="wrap">
+        <div id="opening"></div>
         <div id="appsWrap">
             <div id="apps">
                 <div id="appsContainer">
@@ -114,6 +127,7 @@
                 <div id="stop"></div>
             </div>
         </div>
+        <div id="prevent"></div>
     </div>
     <script src="js/main.js"></script>
     <script src="js/objects.js"></script>
