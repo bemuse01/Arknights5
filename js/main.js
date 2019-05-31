@@ -4,6 +4,9 @@ document.onreadystatechange = function () {
         document.querySelector("#opening").style.cssText = 'opacity: 0; transition: 0.3s;';
         setTimeout(function(){
             document.querySelector("#opening").style.display = 'none';
+            init();
+            noneInit();
+            crtTime();
         }, 1000);
     }
 }
@@ -13,11 +16,8 @@ var width, height;
 width = window.innerWidth;
 height = window.innerHeight;
 
-init();
-noneInit();
 function init(){
     window.addEventListener('resize', onWindowResize, false);
-    crtTime();
 }
 function noneInit(){
     imageSlide();
